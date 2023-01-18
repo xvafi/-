@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg,#F9D976,#F39F86);
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+.container {
+	width: inherit;
+	height: inherit;
+	margin: 0;
+	padding: 0;
+}
+#menu {
+	display: flex;
+	position: relative;
+	height: 50px;
+
+}
+#menu a {
+	padding: 13px;
+	text-decoration: none;
+	color: white;
+	background-color: #fd5860;
+	font: 20px sans-serif;
+}
+
+header{
+    display: block;
+	background-color: #fd5860;
+	width: 100%;
+	height: 50px;
+}
+
+#photo{
+    float: right;
+    margin: 100px 50px 100px 20px;
+    border-radius: 10px;
+	width: 400px;
+}
+#text{
+    display: inline-block;
+    margin: 300px 50px;
+    font-size: x-large;
+	position: top 20px;
+}
+.bigtxt{
+    font-size:xx-large;
+}
+a.nubex {
+    display: inline-block;
+	color: #000000;
+	user-select: none; 
+	text-decoration: none;	
+	outline: none; 
+    margin-top: 10px ;
+    padding: 5px 5px; 
+    border-style: groove;
+    border-width: 0.5px;
+    border-radius: 3px;
+}	
+@media only screen and (max-width: 1200px) {
+#menu {
+	display: flex;
+	position: relative;
+	height: 50px;
+
+}
+#menu a {
+	padding: 13px;
+	text-decoration: none;
+	color: white;
+	background-color: #fd5860;
+	font: 20px sans-serif;
+}
+
+header{
+    display: block;
+	background-color: #fd5860;
+	width: 100%;
+	height: 50px;
+}
+#photo {
+	width: 300px;
+	margin: right;
+}
+#text {
+	margin: 200px 50px;
+}
+}
+@media screen and (max-width: 960px) {
+header {
+	width: 100%;
+}
+#photo {
+	width: 350px;
+	margin: right;
+}
+#text {
+	margin: 150px 50px;
+}
+}
+@media screen and (max-width: 720px) {
+	header{
+		display: block;
+		background-color: #fd5860;
+		width: 100%;
+		height: 50px;
+	}
+	#menu {
+		display: flex;
+		position: relative;
+		height: 50px;
+	
+	}
+	#photo {
+		width: 350px;
+		margin: right;
+	}
+	#text {
+		margin: 200px 60px;
+		font-size: 150%;
+	}
+}
+@media screen and ( max-width: 560px) {
+	header {
+		width: 100%;
+	}
+	#menu {
+		display: flex;
+		position: relative;
+		height: 50px;
+	
+	}
+	#photo {
+		width: 300px;
+		margin: right;
+		margin: 100px 50px 100px 20px;
+	}
+	#text {
+		margin: 200px 60px;
+		font-size: 120%;
+		position: top 40px;
+	}
+}
+	
+	
